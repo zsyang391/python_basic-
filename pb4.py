@@ -10,3 +10,6 @@ yen = 16.6955
 pound = 0.1139
 hongkong_dollar = 1.1691
 euro = 0.1318
+a = "你好吗?"
+b = a.replace("吗", "").replace("?", "!")
+print(b)
